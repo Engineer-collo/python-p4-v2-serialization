@@ -20,7 +20,7 @@ with app.app_context():
     species = ['Dog', 'Cat', 'Chicken', 'Hamster', 'Turtle']
 
     # Add some Pet instances to the list
-    for n in range(10):
+    for n in range():
         pet = Pet(name=fake.first_name(), species=rc(species))
         pets.append(pet)
 
